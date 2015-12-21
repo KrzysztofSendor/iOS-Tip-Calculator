@@ -12,6 +12,7 @@
 		5E41C8FE1C28881A001E764D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E41C8FC1C28881A001E764D /* Main.storyboard */; };
 		5E41C9001C28881A001E764D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E41C8FF1C28881A001E764D /* Assets.xcassets */; };
 		5E41C9031C28881A001E764D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E41C9011C28881A001E764D /* LaunchScreen.storyboard */; };
+		5E41C90B1C288E15001E764D /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41C90A1C288E14001E764D /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5E41C8FF1C28881A001E764D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E41C9021C28881A001E764D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E41C9041C28881A001E764D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E41C90A1C288E14001E764D /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipCalculatorModel.swift; path = ../TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5E41C8FF1C28881A001E764D /* Assets.xcassets */,
 				5E41C9011C28881A001E764D /* LaunchScreen.storyboard */,
 				5E41C9041C28881A001E764D /* Info.plist */,
+				5E41C90A1C288E14001E764D /* TipCalculatorModel.swift */,
 			);
 			path = "Tip Calculator";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E41C90B1C288E15001E764D /* TipCalculatorModel.swift in Sources */,
 				5E41C8FB1C288819001E764D /* ViewController.swift in Sources */,
 				5E41C8F91C288819001E764D /* AppDelegate.swift in Sources */,
 			);
